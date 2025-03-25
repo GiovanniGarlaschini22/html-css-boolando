@@ -98,4 +98,14 @@ body {
     position: absolute;
     left: 1%;
 }
+
+.card:hover .reverse-image {
+    display: block;
+    position: relative;
+  }
+  
+.reverse-image:hover {
+    position: absolute;
+    bottom: 100%;
+}
 /* MAIN END */
