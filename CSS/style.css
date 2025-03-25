@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 90px;
+    gap: 80px;
 }
 
 .text-size {
@@ -43,15 +43,22 @@ body {
 }
 
 .discount-orange {
-    display: block;
+    display: flex;
     position: absolute;
     bottom: 5%;
     background-color: rgb(255, 69, 0);
-    padding: 2px 2px 2px 2px;
+    padding: 4px 4px 4px 4px;
     border: 0;
     color: rgb(255, 255, 255);
 }
 
+.green-ticket {
+    background-color: rgb(59, 111, 63);
+    padding: 4px 4px 4px 4px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    left: 16%;
+}
 .orange-price {
     color: rgb(255, 69, 0);
     font-weight: bold;
@@ -64,4 +71,19 @@ body {
 }
 /* CLASS UTILITIES */
 
+/* HEADER */
+.header-container {
+    display: flex;
+    background-color: rgb(255, 69, 0);
+    max-width: 100%;
+    height: 60px;
+}
+/* HEADER */
+
+
 /* MAIN */
+.position{
+    position: absolute;
+    left: 1%;
+}
+/* FINE MAIN */
