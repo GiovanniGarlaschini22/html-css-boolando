@@ -48,14 +48,12 @@ body {
     bottom: 5%;
     background-color: rgb(255, 69, 0);
     padding: 4px 4px 4px 4px;
-    border: 0;
     color: rgb(255, 255, 255);
 }
 
 .green-ticket {
     background-color: rgb(59, 111, 63);
     padding: 4px 4px 4px 4px;
-    border: 0;
     color: rgb(255, 255, 255);
     left: 16%;
 }
@@ -69,6 +67,15 @@ body {
     text-decoration: line-through;
 
 }
+
+.heart {
+    position: absolute;
+    bottom: 89%;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 8px 8px 10px;
+    
+}
 /* CLASS UTILITIES */
 
 /* HEADER */
@@ -77,8 +84,13 @@ body {
     background-color: rgb(255, 69, 0);
     max-width: 100%;
     height: 60px;
+    margin-bottom: 50px;
 }
-/* HEADER */
+
+.heart:hover {
+    color: red;
+  }
+/* HEADER END */
 
 
 /* MAIN */
@@ -86,4 +98,4 @@ body {
     position: absolute;
     left: 1%;
 }
-/* FINE MAIN */
+/* MAIN END */
